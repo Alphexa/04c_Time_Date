@@ -71,13 +71,13 @@ public class App {
 		
 		output("---------- DateTime --------------------");
 		
-		// LocalDateTime timeStamp = LocalDateTime.now();
-		// output("timeStamp: " + timeStamp );
+		LocalDateTime timeStamp = LocalDateTime.now();
+		output("timeStamp: " + timeStamp );
 		
-		// System.out.println("---------- Kalenderwoche --------------------");
+		System.out.println("---------- Kalenderwoche --------------------");
 		
-        // Calendar cal = Calendar.getInstance();
-        // output("Kalenderwoche: " + cal.get(Calendar.WEEK_OF_YEAR)); 
+        Calendar cal = Calendar.getInstance();
+        output("Kalenderwoche: " + cal.get(Calendar.WEEK_OF_YEAR)); 
 
 	}
 
