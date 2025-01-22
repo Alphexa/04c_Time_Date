@@ -33,22 +33,22 @@ public class App {
 		
 		output("---------- Vergleiche --------------------");
 		
-		// output("Schaltjahr?: " + givenDate.isLeapYear() );
-		// output("Heute/Gestern: " + today.isAfter(yesterday) );
-		// output("Gestern/Heute: " + yesterday.isBefore(today));
-		// output("heute/heute: " + today.isEqual(yesterday));
+		output("Schaltjahr?: " + givenDate.isLeapYear() );
+		output("Heute/Gestern: " + today.isAfter(yesterday) );
+		output("Gestern/Heute: " + yesterday.isBefore(today));
+		output("heute/heute: " + today.isEqual(yesterday));
 		
 
 		output("---------- Extraktion --------------------");
 	
-		// int year = today.getYear();
-		// output("aktuelles Jahr: " + year );
+		int year = today.getYear();
+		output("aktuelles Jahr: " + year );
 		
-		// givenDate = LocalDate.of(2020, Month.OCTOBER, 9);		
-		// String weekday = givenDate.getDayOfWeek().name();
-		// output("Wochentag: " + weekday );
-		// output("Thank God it's " + weekday );
-		// output("Tag im Monat: " + today.getDayOfMonth());
+		givenDate = LocalDate.of(2020, Month.OCTOBER, 9);		
+		String weekday = givenDate.getDayOfWeek().name();
+		output("Wochentag: " + weekday );
+		output("Thank God it's " + weekday );
+		output("Tag im Monat: " + today.getDayOfMonth());
 		
 		output("---------- Zeit / outputn --------------------");
 		
