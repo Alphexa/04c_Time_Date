@@ -63,11 +63,11 @@ public class App {
 		
 		output("---------- Extraktion --------------------");
 		
-		// int hour = justNow.getHour(); // hora
-		// output("H: " + hour );
+		int hour = justNow.getHour(); // hora
+		output("H: " + hour );
 		
-		// int minute = justNow.getMinute();
-		// output("MIN: " + minute );
+		int minute = justNow.getMinute();
+		output("MIN: " + minute );
 		
 		output("---------- DateTime --------------------");
 		
