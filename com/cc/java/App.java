@@ -52,14 +52,14 @@ public class App {
 		
 		output("---------- Zeit / outputn --------------------");
 		
-		// LocalTime justNow = LocalTime.now();
-		// output("Jetzt: " + justNow );
+		LocalTime justNow = LocalTime.now();
+		output("Jetzt: " + justNow );
 		
-		// LocalTime newTime = LocalTime.of(12, 00);
-		// output("Mittag: " + newTime );
+		LocalTime newTime = LocalTime.of(12, 00);
+		output("Mittag: " + newTime );
 		
-		// LocalTime inOneHour = justNow.plusHours(1);
-		// output("In einer Stunde: " + inOneHour );
+		LocalTime inOneHour = justNow.plusHours(1);
+		output("In einer Stunde: " + inOneHour );
 		
 		output("---------- Extraktion --------------------");
 		
