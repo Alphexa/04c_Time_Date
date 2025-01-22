@@ -12,23 +12,23 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		output("---------- Datum / outputn --------------------");
+		output("---------- Datum / output --------------------");
 		
-		// // aktuelle Datum
-		// LocalDate today = LocalDate.now();
-		// output("Heutiges Datum: " + today);
+		// aktuelle Datum
+		LocalDate today = LocalDate.now();
+		output("Heutiges Datum: " + today);
 		
 		// // bestimmtes Datum
-		// LocalDate givenDate = LocalDate.of(2012, Month.SEPTEMBER, 21);
-		// output("Bestimmtes Datum: " + givenDate);
+		LocalDate givenDate = LocalDate.of(2012, Month.SEPTEMBER, 21);
+		output("Bestimmtes Datum: " + givenDate);
 		
 		// // nächste Woche
-		// LocalDate aWeekFromToday = today.plusWeeks(1);
-		// output("Datum in einer Woche: " + aWeekFromToday);
+		LocalDate aWeekFromToday = today.plusWeeks(1);
+		output("Datum in einer Woche: " + aWeekFromToday);
 		
 		// // gestern
-		// LocalDate yesterday = today.minusDays(1);
-		// output("Gestern: " + yesterday);		
+		LocalDate yesterday = today.minusDays(1);
+		output("Gestern: " + yesterday);		
 	
 		
 		output("---------- Vergleiche --------------------");
